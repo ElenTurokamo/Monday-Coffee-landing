@@ -1,0 +1,31 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="#FAF8F3"/>
+  
+  <!-- Coffee cup body -->
+  <path d="M 60 70 L 65 140 Q 65 150 75 150 L 125 150 Q 135 150 135 140 L 140 70 Z" 
+        fill="none" stroke="#C85A3A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Coffee inside cup -->
+  <path d="M 68 85 L 72 140 Q 72 145 80 145 L 120 145 Q 128 145 128 140 L 132 85 Z" 
+        fill="#C85A3A" opacity="0.3"/>
+  
+  <!-- Coffee steam - left -->
+  <path d="M 85 60 Q 80 50 85 40" 
+        fill="none" stroke="#C85A3A" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Coffee steam - center -->
+  <path d="M 100 55 Q 95 45 100 35" 
+        fill="none" stroke="#C85A3A" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Coffee steam - right -->
+  <path d="M 115 60 Q 110 50 115 40" 
+        fill="none" stroke="#C85A3A" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Cup handle -->
+  <path d="M 140 90 Q 160 90 160 110 Q 160 130 140 130" 
+        fill="none" stroke="#C85A3A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Decorative circle around -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#7A9B7F" stroke-width="1.5" opacity="0.5"/>
+</svg>
